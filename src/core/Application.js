@@ -41,11 +41,11 @@ export default class GameApplication extends Application {
   }
 
   /**
-     * Initialize the game world viewport.
-     * Supports handly functions like dragging and panning on the main game stage
-     *
-     * @return {PIXI.Application}
-     */
+   * Initialize the game world viewport.
+   * Supports handly functions like dragging and panning on the main game stage
+   *
+   * @return {PIXI.Application}
+   */
   setupViewport() {
     const viewport = new Viewport({
       screenWidth: this.config.view.width,
@@ -68,4 +68,3 @@ export default class GameApplication extends Application {
     this.viewport = viewport;
   }
 }
-
